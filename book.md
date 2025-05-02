@@ -2,7 +2,7 @@
 
 # Computação Neuromórfica
 
-# Um Percurso desde as Simulações In Silico até Substratos Biológicos In Vitro
+# Um Percurso das Redes Neurais In Silico aos Organóides Cerebrais In Vitro
 
 
 ### Luciano Silva 
