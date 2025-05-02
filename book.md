@@ -59,7 +59,7 @@ Estabelece a base conceitual necessária para a compreensão do campo. Inicia-se
     *   3.4. Estratégias de Codificação da Informação em Sinais Baseados em Spikes
 *   [Capítulo 04 A Plataforma Brian2 para Simulação de Redes Neurais de Spikes](capitulo-04.md)
 
-    Serve como uma introdução prática ao simulador Brian2, guiando a instalação, apresentando seus objetos fundamentais, explicando seu sistema de definição de modelos baseado em equações e o uso de unidades físicas, finalizando com um estudo de caso LIF.
+    Introduz a prática no uso do simulador Brian2, guiando a instalação, apresentando seus objetos fundamentais, explicando seu sistema de definição de modelos baseado em equações e o uso de unidades físicas, finalizando com um estudo de caso LIF.
     *   4.1. Instalação e Configuração do Ambiente Python/Brian2
     *   4.2. Conceitos Fundamentais do Brian2 (`NeuronGroup`, `Synapses`, Monitores, `Network`, `run()`)
     *   4.3. Definindo Equações Diferenciais para Neurônios e Sinapses
