@@ -35,6 +35,7 @@ O livro está organizado em quatro partes principais, seguidas por apêndices t�
 **Parte I: Fundamentos Teóricos e Computacionais da Computação Neuromórfica**
 Estabelece a base conceitual necessária para a compreensão do campo. Inicia-se com a motivação para a computação neuromórfica, analisando as limitações da arquitetura de Von Neumann e introduzindo os princípios bioinspirados. Segue-se uma revisão dos fundamentos neurobiológicos essenciais, focando nos aspectos relevantes para a computação, como a dinâmica neuronal e sináptica, e a plasticidade. Subsequentemente, formalizam-se matematicamente os modelos de neurônios e sinapses em diferentes níveis de abstração. Conclui-se com uma introdução prática à plataforma de simulação Brian2, que será utilizada extensivamente ao longo do livro.
 *   [Capítulo 01 Introdução à Computação Neuromórfica: Paradigmas e Princípios](capitulo-01.md)
+  
     Analisa as limitações da computação convencional (Von Neumann) e introduz o paradigma neuromórfico como alternativa bioinspirada, explorando seus princípios operacionais chave, traçando a evolução histórica e distinguindo entre abordagens *in silico* e *in vitro*.
     *   1.1. Paradigmas Computacionais: A Arquitetura de Von Neumann e suas Limitações Intrínsecas
     *   1.2. O Paradigma Neuromórfico: Emulação de Princípios Neurobiológicos para Computação
