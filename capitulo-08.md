@@ -1,4 +1,3 @@
-
 ---
 
 # CAPÍTULO 08
@@ -189,7 +188,7 @@ Este estudo de caso visa demonstrar, de forma conceitual, como os princípios da
 
 **Tarefa:** Armazenar dois padrões binários simples em uma pequena rede recorrente e, em seguida, testar a capacidade da rede de recuperar o padrão correto quando apresentada com uma versão ruidosa ou incompleta como pista.
 
-**Arquitetura:** Usaremos uma única população de neurônios LIF, com conexões recorrentes (todos-para-todos, exceto autoconexões) que são modificadas por uma regra de plasticidade hebbiana simples ou STDP. Neurônios de input externos serão usados para apresentar os padrões durante as fases de armazenamento e recuperação.
+**Arquitetura:** Usaremos uma única população de neurônios LIF, com conexões recorrentes (todos-para-todos, exceto autoconexões) que são modificadas por uma regra de plasticidade hebbiana simple ou STDP. Neurônios de input externos serão usados para apresentar os padrões durante as fases de armazenamento e recuperação.
 
 **Fases:**
 
@@ -356,31 +355,31 @@ Este capítulo destacou a profunda conexão entre as limitações da computaçã
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 
 Ambrogio, S., Narayanan, P., Tsai, H., Shelby, R. M., Corrado, G. S., Pittore, M. L., ... & Burr, G. W. (2018). Equivalent-accuracy accelerated neural-network training using analogue memory. *Nature*, *558*(7708), 60-67. https://doi.org/10.1038/s41586-018-0180-5
-    *   *Resumo:* Demonstra o uso de memória de mudança de fase (PCM) em arranjos crossbar para acelerar o treinamento de redes neurais (inferência analógica, atualização digital). Exemplo chave de computação em memória com dispositivos emergentes, mostrando potencial e abordando desafios (não idealidades).
+*   *Resumo:* *Demonstra o uso de memória de mudança de fase (PCM) em arranjos crossbar para acelerar o treinamento de redes neurais. Exemplo chave de computação em memória com dispositivos emergentes, mostrando potencial e abordando desafios. Relevante para Seções 8.3 e 8.5 (contexto de hardware).*
 
-Burr, G. W., Shelby, R. M., Sebastian, A., Kim, S., Kim, S., Sidler, S., ... & Le Gallo, M. (2017). Neuromorphic computing using non-volatile memory. *Advances in Physics: X*, *2*(1), 89-124. https://doi.org/10.1080/23746149.2016.1259585
-    *   *Resumo:* Embora um pouco anterior a 2020, esta é uma revisão fundamental e abrangente sobre o uso de NVMs (RRAM, PCM, etc.) para computação neuromórfica. Cobre conceitos de dispositivos, arquiteturas crossbar, computação em memória, desafios e aplicações. Essencial para o tema do capítulo. (Nota: Se a regra "pós-2020" for estrita, esta pode precisar ser substituída, mas seu conteúdo é muito relevante). *Substituição Sugerida se necessário:* Yao, P., Wu, H., Gao, B., et al. (2020). Fully hardware-implemented memristor convolutional neural network. *Nature*, 577(7792), 641-646. https://doi.org/10.1038/s41586-020-1942-4 (*Resumo*: Demonstra uma CNN implementada totalmente em hardware usando crossbars de memristores para VMM, mostrando alta eficiência energética. Relevante para CIM e dispositivos NVM.)
+Yao, P., Wu, H., Gao, B., Tang, J., Zhang, Q., Zhang, W., ... & Qian, H. (2020). Fully hardware-implemented memristor convolutional neural network. *Nature*, *577*(7792), 641-646. https://doi.org/10.1038/s41586-020-1942-4
+*   *Resumo:* *Demonstra uma CNN implementada totalmente em hardware usando crossbars de memristores para VMM, mostrando alta eficiência energética. Exemplo de aplicação de CIM com NVM para IA. Relevante para Seções 8.3 e motivação do capítulo.*
 
 Chen, J., Qi, S., Wang, J., & Ma, D. (2021). Challenges and opportunities for low power AI hardware computation. *Science China Information Sciences*, *64*(10), 201401. https://doi.org/10.1007/s11432-021-3309-5
-    *   *Resumo:* Revisa os desafios energéticos da computação de IA, incluindo o Memory Wall (Seção 8.1). Discute explicitamente a computação em memória e neuromórfica, baseadas em dispositivos emergentes, como soluções promissoras para baixo consumo.
+*   *Resumo:* *Revisa os desafios energéticos da computação de IA, incluindo o Memory Wall. Discute explicitamente a computação em memória e neuromórfica como soluções. Relevante para Seção 8.1 e motivação geral do capítulo.*
 
 Christensen, D. V., Dittmann, R., Linares-Barranco, B., Sebastian, A., Le Gallo, M., Redaelli, A., ... & Spiga, S. (2022). 2022 roadmap on neuromorphic computing and engineering. *Neuromorphic Computing and Engineering*, *2*(2), 022501. https://doi.org/10.1088/2634-4386/ac4a83
-    *   *Resumo:* O roadmap cobre materiais e dispositivos NVM (Seção 8.3), arquiteturas de hardware baseadas neles (CIM), e os desafios associados (variabilidade, etc.). Fornece uma visão atualizada e abrangente dos tópicos do capítulo.
+*   *Resumo:* *Cobre materiais e dispositivos NVM, arquiteturas CIM e desafios. Fornece visão atualizada dos tópicos do capítulo (Seções 8.3, 8.4). Contextualiza a pesquisa em memórias neuroinspiradas.*
 
-Gokmen, T., & Vlasov, Y. (2016). Acceleration of deep neural network training with resistive cross-point devices: Design considerations. *Frontiers in Neuroscience*, *10*, 333. https://doi.org/10.3389/fnins.2016.00333
-    *   *Resumo:* (Ligeiramente anterior a 2020, mas fundamental e muito citado). Analisa as considerações de design e os desafios (não idealidades como variabilidade, não linearidade) ao usar dispositivos resistivos (como RRAM/PCM) em crossbars para acelerar o treinamento de DNNs (CIM). Relevante para as Seções 8.3 e 8.4. *Substituição Sugerida se necessário:* Zidan, M. A., Strachan, J. P., & Lu, W. D. (2018). The future of electronics based on memristive systems. *Nature Electronics*, 1(1), 22-29. https://doi.org/10.1038/s41928-017-0006-8 (*Resumo*: Perspectiva sobre o potencial dos sistemas memristivos, incluindo CIM para IA, cobrindo dispositivos e arquiteturas.)
+Zidan, M. A., Strachan, J. P., & Lu, W. D. (2018). The future of electronics based on memristive systems. *Nature Electronics*, *1*(1), 22-29. https://doi.org/10.1038/s41928-017-0006-8
+*   *Resumo:* *(Ligeiramente anterior a 2020, mas muito influente). Perspectiva sobre o potencial dos sistemas memristivos, incluindo CIM para IA. Cobre dispositivos e arquiteturas. Relevante para Seção 8.3.*
 
 Karunaratne, G., Le Gallo, M., Cherubini, G., Benini, L., Rahimi, A., & Sebastian, A. (2020). In-memory hyperdimensional computing. *Nature Electronics*, *3*(6), 327-337. https://doi.org/10.1038/s41928-020-0410-3
-    *   *Resumo:* Demonstra o uso de computação em memória (com PCM) para um paradigma computacional alternativo inspirado no cérebro (Computação Hiperdimensional). Mostra a aplicação de CIM para além de VMMs padrão e para tarefas cognitivas como classificação e memória associativa.
+*   *Resumo:* *Demonstra o uso de CIM (com PCM) para Computação Hiperdimensional. Mostra aplicação de CIM para além de VMMs padrão e para memória associativa. Relevante para Seções 8.2 e 8.3.*
 
 Kvatinsky, S., Ramadan, M., Ramadan, E., & Fish, A. (2014). VTEAM: A general model for voltage-controlled memristors. *IEEE Transactions on Circuits and Systems II: Express Briefs*, *62*(8), 786-790. https://doi.org/10.1109/TCSII.2015.2433536
-    *   *Resumo:* (Ligeiramente anterior a 2020, mas um modelo comportamental muito usado). Apresenta o modelo TEAM (e sua variante VTEAM) para memristores controlados por voltagem, um exemplo de modelo comportamental (Seção 8.4) usado para simulação que captura histerese e dinâmica de chaveamento.
+*   *Resumo:* *(Ligeiramente anterior a 2020, mas um modelo comportamental chave). Apresenta o modelo VTEAM para memristores. Exemplo de modelo comportamental (Seção 8.4) usado para simulação. Captura histerese e dinâmica de chaveamento.*
 
 Sebastian, A., Le Gallo, M., Khaddam-Aljameh, R., & Eleftheriou, E. (2020). Memory devices and applications for in-memory computing. *Nature Nanotechnology*, *15*(7), 529-544. https://doi.org/10.1038/s41565-020-0655-8
-    *   *Resumo:* Revisão focada em dispositivos de memória (PCM, RRAM, etc.) e suas aplicações específicas para computação em memória (CIM). Discute diferentes abordagens de CIM (analógica, digital) e os desafios dos dispositivos. Central para este capítulo.
+*   *Resumo:* *Revisão focada em dispositivos NVM (PCM, RRAM) para CIM. Discute abordagens de CIM e desafios dos dispositivos. Referência central para Seções 8.3 e 8.4.*
 
-Sung, C., Hwang, H., & Yoo, I. K. (2018). Perspective: A review on memristive hardware for neuromorphic computation. *Journal of Applied Physics*, *124*(15), 151903. https://doi.org/10.1063/1.5037838
-    *   *Resumo:* (Ligeiramente anterior a 2020). Foca especificamente em hardware baseado em memristores (RRAM) para computação neuromórfica. Revisa tipos de dispositivos, arquiteturas crossbar, implementação de neurônios e sinapses, e demonstrações de aprendizado (STDP). Complementar a Burr et al. e Sebastian et al. *Substituição Sugerida se necessário:* Wang, Z., Wu, H., Burr, G. W., et al. (2020). Resistive switching materials for information processing. *Nature Reviews Materials*, 5(3), 173-195. https://doi.org/10.1038/s41578-019-0159-3 (*Resumo*: Revisa materiais para RRAM, mecanismos de comutação e aplicações em memória e computação neuromórfica.)
+Wang, Z., Wu, H., Burr, G. W., Peng, H., Rose, J., & Xia, Q. (2020). Resistive switching materials for information processing. *Nature Reviews Materials*, *5*(3), 173-195. https://doi.org/10.1038/s41578-019-0159-3
+*   *Resumo:* *Revisa materiais para RRAM, mecanismos de comutação e suas aplicações. Cobre memória e computação neuromórfica baseada em RRAM. Relevante para Seção 8.3 e contexto de dispositivos.*
 
-Yu, S. (2018). Neuro-inspired computing with emerging nonvolatile memorys. *Proceedings of the IEEE*, *106*(2), 260-285. https://doi.org/10.1109/JPROC.2018.2790840
-    *   *Resumo:* (Ligeiramente anterior a 2020). Uma revisão abrangente sobre o uso de NVMs emergentes (RRAM, PCM, STT-RAM) para computação neuroinspirada. Discute em detalhe as não idealidades dos dispositivos (variabilidade, não linearidade, etc.) e seu impacto em redes neurais, bem como estratégias de mitigação. Muito relevante para a Seção 8.4. *Substituição Sugerida se necessário:* Xia, Q., & Yang, J. J. (2019). Memristive crossbar arrays for brain-inspired computing. *Nature Materials*, 18(4), 309-323. https://doi.org/10.1038/s41563-019-0291-x (*Resumo*: Foca em arrays crossbar memristivos, cobrindo dispositivos, desafios de integração (sneak path, variabilidade), e aplicações em CIM e neuromórfica.)
+Xia, Q., & Yang, J. J. (2019). Memristive crossbar arrays for brain-inspired computing. *Nature Materials*, *18*(4), 309-323. https://doi.org/10.1038/s41563-019-0291-x
+*   *Resumo:* *(Ligeiramente anterior a 2020, mas fundamental). Foca em arrays crossbar memristivos. Cobre dispositivos, desafios de integração (sneak path, variabilidade), e aplicações em CIM e neuromórfica. Relevante para Seções 8.3 e 8.4.*
