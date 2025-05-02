@@ -583,6 +583,7 @@ O campo da reconstrução de redes neurais a partir de dados de atividade, espec
 6.  **Desenvolvimento Teórico:** Avanços na teoria de sistemas dinâmicos, teoria de grafos e neurociência computacional são necessários para entender melhor a relação entre estrutura, dinâmica e função em redes neurais complexas e para guiar o desenvolvimento de métodos de análise mais significativos.
 
 A capacidade de "ler a mente" de um organoide – reconstruindo sua rede funcional subjacente a partir de sua atividade – permanece um objetivo de longo prazo. No entanto, os esforços contínuos nesta direção não são apenas essenciais para validar e utilizar organoides como modelos do cérebro e como potenciais substratos computacionais, mas também impulsionam o desenvolvimento de ferramentas e conceitos que são amplamente aplicáveis à análise de dados neurais em geral. A jornada para desvendar a conectividade oculta nesses "cérebros em um prato" promete continuar a ser uma área excitante e desafiadora de investigação científica e tecnológica.
+
 ---
 
 ## REFERÊNCIAS BIBLIOGRÁFICAS
