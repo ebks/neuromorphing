@@ -12,7 +12,7 @@
 
 
 
-**Contexto, Justificativa e Escopo da OBRA**
+**Contexto, Justificativa e Escopo**
 
 A computação contemporânea, embora tenha alcançado progressos exponenciais nas últimas décadas, encontra-se crescentemente confrontada por limitações intrínsecas impostas pela arquitetura de Von Neumann predominante. Os Muros da Memória e da Energia, manifestações da separação física entre processamento e armazenamento e do custo energético da movimentação de dados, representam gargalos significativos para o avanço em domínios computacionalmente intensivos, como a inteligência artificial de larga escala, a análise de big data e simulações científicas complexas. Neste cenário, a busca por paradigmas computacionais alternativos tornou-se não apenas uma curiosidade acadêmica, mas uma necessidade estratégica para sustentar a inovação tecnológica. A computação neuromórfica emerge neste contexto como uma das abordagens mais promissoras, propondo uma reengenharia fundamental dos sistemas computacionais inspirada nos princípios de eficiência, paralelismo, co-localização e adaptação demonstrados pelo cérebro biológico.
 
