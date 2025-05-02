@@ -1,8 +1,8 @@
 ---
 
-# Computação Neuromórfica: 
+# Computação Neuromórfica
 
-# de Simulações In Silico com Brian2 a Substratos Biológicos In Vitro
+# Um Percurso desde as Simulações In Silico até Substratos Biológicos In Vitro
 
 
 ### Luciano Silva 
