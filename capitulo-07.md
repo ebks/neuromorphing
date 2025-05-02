@@ -208,32 +208,31 @@ Brian2 ocupa uma posição valiosa e complementar no fluxo de desenvolvimento ne
 ## REFERÊNCIAS BIBLIOGRÁFICAS
 
 Bellec, G., Scherr, F., Subramoney, A., Hajek, E., Salaj, D., Legenstein, R., & Maass, W. (2020). A solution to the learning dilemma for recurrent networks of spiking neurons. *Nature Communications*, *11*(1), 3625. https://doi.org/10.1038/s41467-020-17236-y
- *   *Resumo:* Propõe o algoritmo e-prop para treinar RSNNs, uma abordagem relevante para implementar aprendizado em hardware neuromórfico. Discute a adequação de tais algoritmos para plataformas de baixa precisão e baseadas em eventos, como as revisadas neste capítulo.
+*   *Resumo:* Propõe o algoritmo e-prop para treinar RSNNs, uma abordagem relevante para implementar aprendizado em hardware neuromórfico. Discute a adequação de tais algoritmos para plataformas de baixa precisão e baseadas em eventos, como as revisadas neste capítulo.
 
 Bohnstinghel, T., Gjoni, M., Pignari, S. A., Sandamirskaya, Y., & Indiveri, G. (2022). Online unsupervised learning from asynchronous streams of data in spiking neural networks. *Neuromorphic Computing and Engineering*, *2*(4), 044002. https://doi.org/10.1088/2634-4386/ac8cd0
-    *   *Resumo:* Demonstra aprendizado não supervisionado (STDP, IP) em hardware neuromórfico (usando abordagem mista/analógica) recebendo dados de sensores DVS. Exemplo concreto de implementação de plasticidade on-chip discutida em relação a Loihi e outros.
+*   *Resumo:* Demonstra aprendizado não supervisionado (STDP, IP) em hardware neuromórfico (usando abordagem mista/analógica) recebendo dados de sensores DVS. Exemplo concreto de implementação de plasticidade on-chip discutida em relação a Loihi e outros.
 
 Christensen, D. V., Dittmann, R., Linares-Barranco, B., Sebastian, A., Le Gallo, M., Redaelli, A., ... & Spiga, S. (2022). 2022 roadmap on neuromorphic computing and engineering. *Neuromorphic Computing and Engineering*, *2*(2), 022501. https://doi.org/10.1088/2634-4386/ac4a83
-     *   *Resumo:* Roadmap abrangente que cobre extensivamente o hardware neuromórfico (materiais, dispositivos, arquiteturas), seus desafios (escalabilidade, energia, programabilidade) e aplicações. Fornece uma visão geral essencial do estado da arte discutido neste capítulo.
+*   *Resumo:* Roadmap abrangente que cobre extensivamente o hardware neuromórfico (materiais, dispositivos, arquiteturas), seus desafios (escalabilidade, energia, programabilidade) e aplicações. Fornece uma visão geral essencial do estado da arte discutido neste capítulo.
 
 Davies, M., Wild, A., Orchard, G., Sandamirskaya, Y., G. T., M., Plank, P., & H., J. (2021). Advancing neuromorphic computing with Loihi 2. *IEEE Micro*, *41*(5), 82-88. https://doi.org/10.1109/MM.2021.3106109
-    *   *Resumo:* Apresenta detalhes técnicos e avanços do Loihi 2, uma das plataformas de hardware notáveis discutidas. Destaca a programabilidade neuronal, aprendizado on-chip e o ecossistema de software Lava, abordando diretamente os temas de arquitetura, desafios e mapeamento.
+*   *Resumo:* Apresenta detalhes técnicos e avanços do Loihi 2, uma das plataformas de hardware notáveis discutidas. Destaca a programabilidade neuronal, aprendizado on-chip e o ecossistema de software Lava, abordando diretamente os temas de arquitetura, desafios e mapeamento.
 
 Gardner, B., Sporea, I., & Grüning, A. (2022). Training spiking neural networks for neuromorphic hardware. *Frontiers in Neuroscience*, *15*, 761718. https://doi.org/10.3389/fnins.2021.761718
-    *   *Resumo:* Revisa especificamente os desafios e métodos para treinar SNNs tendo em vista a implementação em hardware neuromórfico. Discute quantização, conversão ANN-SNN e SG no contexto das restrições de hardware, diretamente relevante para a Seção 7.4.
+*   *Resumo:* Revisa especificamente os desafios e métodos para treinar SNNs tendo em vista a implementação em hardware neuromórfico. Discute quantização, conversão ANN-SNN e SG no contexto das restrições de hardware, diretamente relevante para a Seção 7.4.
 
 Grollimund, L., Trabes, G. P., & Indiveri, G. (2023). A fault-tolerant spiking neural network for navigation based on head-direction cells. *arXiv preprint arXiv:2310.08953*. https://arxiv.org/abs/2310.08953
-    *   *Resumo:* Apresenta uma SNN tolerante a falhas para navegação (células de direção da cabeça) projetada para implementação neuromórfica. Aborda diretamente o desafio da robustez e tolerância a falhas no hardware (Seção 7.3) com uma solução inspirada biologicamente.
+*   *Resumo:* Apresenta uma SNN tolerante a falhas para navegação (células de direção da cabeça) projetada para implementação neuromórfica. Aborda diretamente o desafio da robustez e tolerância a falhas no hardware (Seção 7.3) com uma solução inspirada biologicamente.
 
 Knight, J. C., Nowotny, T., & Stimberg, M. (2021). Minimal heuristics for selecting Brian 2 code generation targets. *Frontiers in Neuroinformatics*, *15*, 759889. https://doi.org/10.3389/fninf.2021.759889
-    *   *Resumo:* Embora focado no Brian2, a discussão sobre otimização de código e desempenho em diferentes backends é relevante para a compreensão do papel do Brian2 na prototipagem (Seção 7.5) e os trade-offs entre software flexível e hardware otimizado.
+*   *Resumo:* Embora focado no Brian2, a discussão sobre otimização de código e desempenho em diferentes backends é relevante para a compreensão do papel do Brian2 na prototipagem (Seção 7.5) e os trade-offs entre software flexível e hardware otimizado.
 
 Liu, Y., Zhang, Q., Li, P., Zhang, Y., Li, G., Feng, S., ... & Tang, H. (2022). SpiNNaker2: A large-scale neuromorphic system with asynchronousconvolution processing elements for event-based deep learning. *IEEE Transactions on Neural Networks and Learning Systems*, *33*(9), 4618-4632. https://doi.org/10.1109/TNNLS.2021.3063117
-    *   *Resumo:* Descreve a arquitetura e os objetivos do SpiNNaker2, uma das plataformas chave discutidas na Seção 7.2. Detalha suas melhorias em relação ao SpiNNaker1 e seu foco em suportar SNNs para deep learning baseado em eventos.
+*   *Resumo:* Descreve a arquitetura e os objetivos do SpiNNaker2, uma das plataformas chave discutidas na Seção 7.2. Detalha suas melhorias em relação ao SpiNNaker1 e seu foco em suportar SNNs para deep learning baseado em eventos.
 
 Schuman, C. D., Kulkarni, S. R., Parsa, M., Mitchell, J. P., Date, P., & Kay, B. (2022). Opportunities for neuromorphic computing algorithms and applications. *Nature Computational Science*, *2*(1), 10-19. https://doi.org/10.1038/s43588-021-00184-y
-    *   *Resumo:* Revisa oportunidades e desafios em computação neuromórfica, incluindo hardware, algoritmos e aplicações. Fornece um contexto de alto nível para os tópicos detalhados neste capítulo, como os desafios de escalabilidade, energia e programabilidade.
+*   *Resumo:* Revisa oportunidades e desafios em computação neuromórfica, incluindo hardware, algoritmos e aplicações. Fornece um contexto de alto nível para os tópicos detalhados neste capítulo, como os desafios de escalabilidade, energia e programabilidade.
 
 Zenke, F., & Neftci, E. O. (2021). Brain-inspired learning on neuromorphic hardware. *Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences*, *379*(2208), 20200158. https://doi.org/10.1098/rsta.2020.0158
-    
-    *   *Resumo:* Foca na implementação de aprendizado bioinspirado (STDP, SG) em hardware neuromórfico. Discute como as características do hardware (digital, analógico, precisão, plasticidade on-chip) interagem com os algoritmos de aprendizado, conectando os temas de arquitetura e algoritmos.
+*   *Resumo:* Foca na implementação de aprendizado bioinspirado (STDP, SG) em hardware neuromórfico. Discute como as características do hardware (digital, analógico, precisão, plasticidade on-chip) interagem com os algoritmos de aprendizado, conectando os temas de arquitetura e algoritmos.
