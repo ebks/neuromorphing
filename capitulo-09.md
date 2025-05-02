@@ -258,9 +258,7 @@ Ikeda, K., Nagasawa, M., Okuno, H., Hagiwara, M., & Shimizu, T. (2021). Optogene
 *   *Resumo:* *Utiliza optogenética para estimular neurônios em organoides e registra respostas pós-sinápticas, demonstrando a formação de sinapses funcionais. Relata a indução de plasticidade semelhante à LTP com estimulação óptica. Relevante para Seção 9.4.*
 
 Kagan, B. J., Kitchen, A. C., Tran, N. T., Habibollahi, F., Khajehnejad, M., Parker, B. J., ... & Friston, K. J. (2022). In vitro neurons learn and exhibit sentience when embodied in a simulated game-world. *Neuron*, *110*(23), 3952-3969.e8. https://doi.org/10.1016/j.neuron.2022.09.001
-*   *Resumo:* *O estudo "DishBrain", demonstrando aprendizado em culturas neurais conectadas ao jogo Pong via MEA.*
-*   *Exemplo proeminente de tentativa de demonstrar aprendizado *in vitro*.*
-*   *Crucial para a discussão na Seção 9.4.*
+*   *Resumo: O estudo "DishBrain", demonstrando aprendizado em culturas neurais conectadas ao jogo Pong via MEA. Exemplo proeminente de tentativa de demonstrar aprendizado in vitro. Crucial para a discussão na Seção 9.4.*
 
 Kanton, S., Boyle, M. J., He, Z., Santel, M., Weigert, A., Sanchís-Calleja, F., ... & Treutlein, B. (2019). Organoid single-cell genomic atlas uncovers human-specific features of brain development. *Nature*, *574*(7778), 418-422. https://doi.org/10.1038/s41586-019-1654-9
 *   *Resumo:* *Utiliza scRNA-seq para mapear a diversidade celular em organoides cerebrais humanos e compará-la com o desenvolvimento *in vivo* e em primatas. Relevante para entender a composição celular e a maturidade (Seções 9.1, 9.2).*
